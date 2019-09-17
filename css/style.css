@@ -1,0 +1,326 @@
+body {
+font-family: 'Cute Font', cursive;
+
+background: fixed url('../img/dark-bg.jpg');
+position:relative;
+}
+
+#site-wrapper {
+    overflow-x: hidden !important;
+}
+
+.navbar-brand {
+  padding:5px;
+  padding-left : 20px;
+  height:50px;
+  position : relative;
+  color: #F177CE;
+}
+.white {
+  color: white;
+  font-size: 24px;
+  opacity: .7;
+  font-weight: 100;
+  font-family: 'Cute Font', cursive;
+}
+
+.navbar-brand img {
+  height: 100%;
+  color: #F177CE;
+}
+
+#navbar {
+  background: black;
+  color: white;
+}
+.nav {
+  color: #F177CE;
+}
+.dark-bg {
+  margin-bottom: -40px;
+}
+.thumbnail {
+  width: 218px;
+  height:218px;
+  margin-left:auto;
+  margin-right:auto;
+  background: black;
+}
+
+.shadow {
+  box-shadow: 2px 2px 2px white;
+  opacity: .75;
+  position: relative;
+  transition: all 0.2s;
+  background: black;
+  top: 0;
+}
+.cust-caption {
+  display:none;
+  position: absolute;
+  background-color: black;
+  padding : 10px;
+  color: white;
+
+  margin:5px;
+  bottom:0;
+  left:0;
+  right:0;
+  height : 60%;
+  margin:5px;
+  overflow-y : auto;
+}
+
+.fa {
+  font-size: 30px;
+}
+.fa-github-square {
+  color: #751aff;
+}
+.fa-linkedin-square {
+  color: #F177CE;
+}
+.fa-twitter-square {
+  color: #66ccff;
+}
+.fa-instagram {
+  color: #00ffff;
+}
+
+.my-font {
+  font-family: 'Cute Font', cursive;
+  color: #F177CE;
+  font-weight: 400;
+  opacity: .8;
+  font-size: 27px;
+
+}
+h1 {
+  color: white;
+  margin-bottom: -10px;
+  opacity: .7;
+}
+
+.color-hover:hover{
+	color : #337AB7;
+}
+
+.up-hover:hover {
+  top :-5px;
+  box-shadow: 15px 15px 15px #777;
+}
+
+.cust-caption a{
+  color:white;
+  text-shadow:1px 1px 2px black;
+}
+
+.cust-caption2 a{
+  color:white;
+  text-shadow:1px 1px 2px black;
+}
+
+
+.head h1{
+  color : white;
+
+}
+
+.heading {
+  text-align : center;
+  padding : 10px;
+
+}
+.navbar-header {
+  color: #F177CE;
+}
+
+#about p {
+	font-size : 1.2em;
+	position : relative;
+	left : 10px;
+}
+
+.logo {
+	padding-top:50px;
+}
+
+.logo img {
+  position:relative;
+  width:100%;
+  max-width : 450px;
+  margin:auto;
+}
+
+
+.showcase {
+	text-align:center;
+	padding-top:60px;
+}
+
+.showcase h1{
+font-size : 8em;
+}
+
+.btn {
+font-size: 1.5em;
+background-color: #00ffff;
+}
+.links{
+	padding:30px 0;
+}
+.list-inline {
+  margin-top: -40px;
+  margin-left: 0;
+  font-size: 18px;
+}
+
+li.skills {
+  padding: 2px 6px;
+  margin: 0px 0px 5px 0px;
+  border-radius: 4px;
+  color: white;
+  background: #6aa3d5;
+  font-size: 16px;
+}
+div.caption h3 {
+  color: #245682;
+}
+div.caption p {
+  color: #193c5a;
+}
+.project .thumbnail {
+  margin-bottom: 0;
+  border: none;
+}
+hr {
+  display: block;
+  height: 1px;
+  width: 50%;
+  border-top: 1px solid #d5e5f3;
+  margin: 60px 0 60px 0;
+}
+.anchor {
+  color: #F177CE;
+  padding-top: 20px;
+}
+.divider-vertical {
+  height: 12px;
+  margin: 0 0;
+  border-left: 1px solid #428bca;
+  border-right: 1px solid #428bca;
+}
+.center-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-nav {
+	padding-top:30px;
+}
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+.valign-text {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.main-nav h1{
+	padding-bottom:20px;
+}
+
+footer{
+  height : 100%;
+	min-height:250px;
+	color:#ccc;
+	font-size:1.5em;
+}
+
+footer a {
+	color:white;
+}
+
+footer a:hover{
+	color:white;
+}
+#social {
+display: inline;
+
+}
+h2 {
+  font-family: 'Cute Font', cursive;
+  color: white;
+  opacity: .7;
+}
+
+footer img {
+	display:block;
+	position:relative;
+	margin:5px auto 20px auto;
+}
+
+.center{
+	text-align:center;
+}
+
+footer li, footer p{
+	margin : 0;
+	padding : 7px;
+}
+
+ul.links i {
+  font-size: 25px;
+  color: #F177CE;
+}
+#field1 {
+  background-color: black;
+  color: white;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+  opacity: .8;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  color: white;
+  opacity: .8;
+}
+
+.name {
+  color: white;
+  font-weight: 100;
+  padding-top: 6px;
+  font-size: 28px;
+  opacity: .8;
+}
+.pink {
+  color: #F177CE;
+}
+a {
+font-size: 25px;
+color: #F177CE;
+}
+p {
+  font-size: 28px;
+}
+.hash {
+  color: white;
+}
+#portfolio {
+  margin-top: -30px;
+}
+
+#purchase {
+  margin-top: -30px;
+}
+#contact {
+  margin-top: -20px;
+}
+.form-control {
+  font-size: 20px;
+}
+
+h3 {
+  color:white;
+}

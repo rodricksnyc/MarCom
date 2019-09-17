@@ -1,0 +1,846 @@
+.highZ {
+  position: relative;
+  z-index: 100;
+}
+p {
+    text-align:left;
+}
+.white {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    text-align: left;
+}
+
+.fixThisWidth {
+  max-width:1500px;
+}
+.w960 {
+  max-width:960px;
+}
+.circle1 {
+  background: transparent;
+}
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: hidden;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+}
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: hidden;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+}
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+}
+@-webkit-keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: hidden;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+}
+@keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: hidden;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+}
+.slideInLeft {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+}
+.slick-slide img {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  width:100% !important;
+}
+
+h3.moreGray.two {
+  color: #5c5d5d !important;
+  font-size: 18px !important;
+  padding-top: 0px;
+  padding-bottom: 1em;
+  font-weight: 600;
+  line-height: 25px;
+  text-align:left;
+}
+
+.flyer {
+  max-width:640px;
+  -webkit-filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+  -moz-filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+  -ms-filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+  -o-filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+  filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+  padding-top:3em;
+}
+
+.flyer.three {
+  -webkit-filter: drop-shadow(0 0px 0px rgba(0,0,0,0));
+  -moz-filter: drop-shadow(0 0px 0px rgba(0,0,0,0));
+  -ms-filter: drop-shadow(0 0px 0px rgba(0,0,0,0));
+  -o-filter: drop-shadow(0 0px 0px rgba(0,0,0,0));
+  filter: drop-shadow(0 0px 0px rgba(0,0,0,0));
+  padding-top:2em;
+}
+
+.boldThis {
+  font-weight:600;
+}
+
+.whiteLogo {
+  width:127px !important;
+  height:58px !important;
+}
+
+.p100 {
+  padding-top:200px;
+}
+
+.white.two {
+  color: white !important;
+  font-size: 18px !important;
+  padding-top: 0px;
+  padding-bottom: 1em;
+  font-weight: 600;
+}
+
+.marcomHidden {
+  width: 127px !important;
+  height: 58px !important;
+  margin-bottom: 0em;
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom:0px;
+  margin-top: 5em;
+}
+
+.slick-dots li {
+  margin: 25px 5px 20px 5px !important;
+
+}
+
+.slick-dots li button {
+  width: 14px !important;
+  height: 14px !important;
+  box-shadow: -1px 3px 7px rgba(30, 30, 30, 0.49);
+}
+
+.slick-prev {
+  left: 50px;
+}
+
+.slick-prev:after {
+  content: "\f104";
+  font: 40px/1 'FontAwesome';
+  color: white;
+}
+
+.slick-next {
+  right: 50px;
+  text-align: right;
+}
+
+.slick-next:after {
+  content: "\f138";
+  font: 36px/1 'FontAwesome';
+  color: white;
+}
+
+.slick-prev:after {
+  content: "\f137";
+  font: 36px/1 'FontAwesome';
+  color: white;
+}
+
+.slick-prev:hover:after,
+.slick-next:hover:after {
+  -webkit-transition: all .7s ease-in-out;
+  -o-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
+  color:#00f;
+}
+.slick-prev:focus:after,
+.slick-next:focus:after {
+  -webkit-transition: all .7s ease-in-out;
+  -o-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
+
+}
+.slick-prev:active:after,
+.slick-next:active:after {
+  -webkit-transition: all .7s ease-in-out;
+  -o-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
+  color:white;
+}
+.slick-prev:visited:after,
+.slick-next:visited:after {
+  -webkit-transition: all .7s ease-in-out;
+  -o-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
+
+}
+
+.toggleDiv {
+  display:none;
+}
+
+.slick-slide img {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  width: 100% !important;
+}
+.slider-wr {
+  width: 100%;
+  padding: 0 8px;
+  margin: 20px auto;
+  box-sizing: border-box;
+  margin-top: -1em;
+  padding-top: 0em;
+  margin-bottom: -1em;
+}
+.slide {
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+.slide img {
+  max-width: 100%;
+  position: relative;
+  transform: scale(0.9);
+  transition: all 1s ease-out;
+  opacity: 0.5;
+}
+.slide.slick-center img {
+  transform: scale(1.1);
+  transition: all 1s ease-out;
+  opacity: 1;
+}
+
+p.big {
+  /* max-width: 350px; */
+}
+.slick-dots {
+  bottom: 6% !important;
+}
+.horizontal2 {
+  /* margin-bottom: 6em; */
+  margin-top: 0em;
+}
+
+h3.moreGray {
+    color: #5c5d5d !important;
+    font-size: 18px !important;
+    padding-top: 36px;
+    font-weight: 600;
+}
+
+.stars2 {
+  position: absolute;
+  z-index: 1;
+  left: -91%;
+  top: -13%;
+}
+
+.naus1 {
+  max-width:390px;
+}
+
+.firstStar {
+  max-width:88px;
+}
+
+.secondStar {
+  max-width:320px;
+}
+
+.thirdStar {
+  max-width:280px;
+}
+
+.naus-logo {
+  max-width:450px;
+}
+
+.carpetBackground {
+  background-image: url(../images5/red-carpet.png);
+  background-repeat: no-repeat;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  height:auto;
+  background-size: cover;
+  max-height: 790px;
+
+}
+
+.stars1 {
+  position: absolute;
+  z-index: 1;
+  margin-top: -4em;
+  right: 164%;
+}
+
+.stars3 {
+  position: absolute;
+  z-index: 1;
+  right: 5%;
+  margin-top: 3em;
+}
+
+.slideRight {
+  animation-name: slideRight;
+  -webkit-animation-name: slideRight;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+  visibility: visible !important;
+  animation-delay: 3s;
+  -webkit-animation-delay: 3s;
+}
+@keyframes slideRight {
+  0% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@-webkit-keyframes slideRight {
+  0% {
+    -webkit-transform: translateX(-20%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+  }
+}
+.graySlideBackground2 {
+  background-image: linear-gradient(to right, #e1e5e8, #f6f8f8, #f7f8f8, #f2f4f5, #f6f8f8, #e1e5e8);
+  padding-top: 3em;
+}
+.slick-slide .bottom {
+  padding-left:3.6em !important;
+  padding-right:3.6em !important;
+  padding-bottom: 4em;
+}
+
+.slick-list {
+  outline: none !important;
+}
+
+.slick-slide:focus {
+  outline: none !important;
+}
+
+
+@media (min-width:992px) and (max-width:1024px) {
+  .brochuresDesktop {
+    padding-left: 0em;
+    padding-top: 5em;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .brochuresDesktop {
+    padding-left:0em;
+  }
+}
+
+@media (min-width:1025px) {
+.smallCenter {
+  max-width:350px;
+}
+
+  .carousel2 {
+    display:none;
+  }
+  .slider-wr {
+    display:block;
+  }
+}
+
+@media (max-width:1024px) {
+  .carousel2 {
+    display:block;
+  }
+  .slider-wr {
+    display:none;
+  }
+  .flyer2 {
+    max-width: 100% !important;
+  }
+
+}
+
+@media (min-width:768px) {
+  .dropAnimation {
+    position: absolute;
+    z-index: 8;
+    left: -40%;
+    max-width: 600px;
+  }
+  .slideLeftAnimation {
+    position:relative;
+  }
+  .dropShadows {
+    position: absolute;
+    z-index: 7;
+    left: -37%;
+    max-width: 600px;
+    /* top: 19%; */
+    /* bottom: 0; */
+    margin-top: 2em;
+  }
+  .p10 {
+    padding-top: 15em;
+    padding-bottom: 6em;
+  }
+
+}
+
+@media (max-width:768px) {
+  .brochuresDesktop {
+    display:none;
+  }
+  .brochuresMobile {
+    display:block;
+  }
+
+}
+
+@media (min-width:769px) {
+  .pr1 {
+    padding-right:2em;
+  }
+  .brochuresDesktop {
+    position:relative;
+  }
+  .brochuresMobile {
+    display:none;
+  }
+
+  h3.moreGray.two {
+    /* max-width: 315px; */
+  }
+  p.big {
+    /* max-width: 350px; */
+  }
+
+
+}
+
+
+@media (max-width:767px) {
+
+  p.mt-40 {
+    text-align: center;
+}
+
+p.big.white {
+    text-align: center;
+}
+.white {
+  text-align: center;
+}
+
+h3.moreGray.two {
+    text-align: center;
+}
+  .slick-prev {
+    left: 20px;
+  }
+
+  .slick-next {
+    right: 20px;
+  }
+
+  .slick-next:after, .slick-prev:after {
+    font: 30px/1 'FontAwesome';
+  }
+
+  .order{
+    display:flex;
+    flex-direction: column-reverse;
+    align-items:center;
+  }
+  .naus-logo {
+    padding-left:1em;
+    padding-right:1em;
+    max-width:320px;
+  }
+
+  .pr1 {
+    padding-right: 0em;
+  }
+
+  .naus-mobile {
+    margin-top:0em;
+    margin-bottom:2em;
+  }
+
+  .mt-40 {
+    margin-top: 0px;
+  }
+  .p10 {
+    padding-top: 9em;
+    padding-bottom: 0em;
+  }
+  .smallCenter {
+    text-align:center!important;
+  }
+
+  .slick-slide  .bottom {
+    padding-left: 0em !important;
+    padding-right: 0em !important;
+    padding-bottom: 4em;
+  }
+
+  .slick-dotted.slick-slider {
+    margin-bottom: 0px;
+    margin-top: 2em;
+  }
+
+}
+
+
+@media (max-width:768px) and (min-width:676px) {
+  .topBlock, .aquaBlock {
+    padding-left:2em;
+    /* padding-right:2em; */
+  }
+  .brochuresDesktop {
+    padding-left:2em;
+  }
+  .tR7
+  {
+    padding-right: 6em;
+  }
+  .dropAnimation {
+    margin-top: 5em;
+  }
+}
+
+@media (max-width:992px) {
+  .topBlock, .aquaBlock {
+    padding-left:1em;
+    padding-right:1em;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .graySlideBackground2 {
+    padding-top: 0em;
+  }
+  .naus-logo {
+    margin-top:2em;
+  }
+
+  .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+
+
+@media (max-width:1024px) and (min-width:768px) {
+  .circle1.pink {
+    background: #ff663a;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    left: 0%;
+    max-width: 600px;
+    margin-top: 15em;
+    -webkit-box-shadow: 3px 11px 21px -2px rgba(0,0,0,0.6) !important;
+    box-shadow: 3px 11px 21px -2px rgba(0,0,0,0.6) !important;
+  }
+
+  p.big {
+    max-width: 360px;
+  }
+  .flyer2 {
+    padding-top: 8em;
+
+  }
+  .slick-dots {
+    bottom: 0% !important;
+  }
+  .grayBackground {
+    background: #dfdfdf;
+    padding-bottom: 5em;
+  }
+
+}
+
+@media (min-width:1025px) {
+
+  .slick-slide {
+    min-width: 476px !important;
+  }
+
+  .slick-slide .bottom {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-bottom: 4em;
+  }
+  .image-slider {
+    width:994px;
+    margin-top:3em;
+  }
+
+  .group1 {
+    position: relative;
+    z-index: 10;
+    right: 0%;
+    width: 994px;
+  }
+
+  .group2 {
+    position: absolute;
+    z-index: 10;
+    right: -100%;
+    width: 994px;
+    opacity:0;
+  }
+
+
+  .brochures1 {
+    width:476px;
+    padding-bottom: 3em;
+  }
+
+  #one {
+    color:#00f;
+    cursor:grab;
+    font-size:15px;
+    margin-right:.5em;
+    text-shadow: -1px 3px 7px rgba(30, 30, 30, 0.49);
+  }
+
+  #two {
+    color:white;
+    cursor:grab;
+    font-size:15px;
+    text-shadow: -1px 3px 7px rgba(30, 30, 30, 0.49);
+  }
+
+
+  .dials {
+    padding-bottom:3em;
+
+  }
+
+}
+
+@media (max-width:1024px) {
+  .dials {
+    display:none;
+  }
+  .order {
+    padding-left:1em;
+    padding-right:1em;
+  }
+
+  .image-slider {
+    padding-left:1em;
+    padding-right:1em;
+    margin-top: 3em;
+  }
+
+  .brochures1 {
+    margin-bottom:1em;
+  }
+
+  .group1, .group2  {
+    position: relative;
+
+  }
+
+  .slick-slide img {
+
+    width: 100% !important;
+  }
+
+}
+
+@media (max-width: 1078px) {
+  .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+
+
+@media (max-width:1024px) and (min-width:768px) {
+
+  .p10 {
+    padding-top: 9em;
+    padding-bottom: 3em;
+  }
+
+  .flyer {
+    max-width: 478px !important;
+    -webkit-filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+    -moz-filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+    -ms-filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+    -o-filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+    filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+    padding-top: 3.4em;
+  }
+  .flyer.three {
+    max-width: 436px !important;
+    -webkit-filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+    -moz-filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+    -ms-filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+    -o-filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+    filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+    padding-top: 4.2em;
+  }
+
+
+}
+
+@media (max-width: 767px) {
+
+  .flyer2 {
+    padding-top: 4em;
+
+  }
+
+  .slick-slide img {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    width: 100% !important;
+  }
+  .order{
+    display:flex;
+    flex-direction: column-reverse;
+    align-items:center;
+  }
+
+  .slick-dots li button {
+    width: 12px !important;
+    height: 12px !important;
+
+  }
+
+  .slick-dots {
+    bottom: 0% !important;
+  }
+
+  .p100 {
+    padding-top:80px;
+  }
+
+
+  .white {
+    padding-right: .4em;
+    padding-left: .4em;
+  }
+
+  .notOnMobile {
+    display: none !important;
+  }
+
+  .brochures1 {
+    max-width:320px;
+    margin-bottom:1em;
+  }
+
+  .slick-dots li {
+
+    width: 10px;
+    height: 10px;
+    margin: 25px 10px 20px 10px;
+
+  }
+
+  .slick-dots li button {
+
+    width: 10px;
+    height: 10px;
+    padding: 0px;
+
+
+    margin-top: 11px;
+  }
+
+  .slick-slide {
+    max-height: 100% !important;
+  }
+
+  /* .slick-slide {
+  max-height:500px;
+  } */
+  /* .flyer {
+  max-width: 494px !important;
+  -webkit-filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+  -moz-filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+  -ms-filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+  -o-filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+  filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+  padding-top: 1.2em;
+}
+.flyer.three {
+max-width: 436px !important;
+-webkit-filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+-moz-filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+-ms-filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+-o-filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+padding-top: 1em;
+} */
+.flyer {
+  max-width: 100% !important;
+}
+
+
+}

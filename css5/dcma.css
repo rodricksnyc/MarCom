@@ -1,0 +1,348 @@
+.blue.smallCenter {
+line-height:36px
+}
+.moreGray.two {
+line-height:26px
+}
+.shadow2 {
+  opacity:.7;
+}
+h3.moreGray {
+    color: #5c5d5d !important;
+    font-size: 18px !important;
+    padding-top: 36px;
+    font-weight: 600;
+}
+
+
+.fixedWidth{
+  max-width:1060px;
+}
+
+.flex {
+  display:flex;
+}
+
+
+h6.white {
+  font-weight:500;
+}
+
+.firstBlock {
+    background-image: linear-gradient(to right, #e1e5e8, #f6f8f8, #f7f8f8, #f2f4f5, #f6f8f8, #e1e5e8);
+}
+
+.rightPic {
+  position: relative;
+}
+
+.diskDesktop {
+  margin-top:-3em;
+}
+
+.m-100 {
+    margin-top: 75px;
+    padding-bottom: 100px;
+}
+h3.moreGray.two {
+    color: #5c5d5d !important;
+    font-size: 17px !important;
+    padding-top: 0px;
+    padding-bottom: 1em;
+    font-weight: 600;
+}
+
+.pic1 {
+    position: absolute;
+    z-index: 10;
+    width: 200px;
+    margin-top: 101px;
+    right: 14%;
+}
+.pic3 {
+    position: absolute;
+    z-index: 2;
+    margin-left: -100px;
+    margin-top: 271px;
+    width: 600px;
+  }
+
+.pic4 {
+  position: absolute;
+  z-index: 5;
+  width: 202px;
+  margin-left: 157px;
+  margin-top: 212px;
+  opacity: 1;
+}
+.pic2 {
+    position: absolute;
+    z-index: 4;
+    width: 550px;
+    margin-left: -75px;
+    margin-top: 147px;
+}
+.circle2 {
+    background: #0000ff;
+    border-radius: 50%;
+    width: 210px;
+    height: 210px;
+    z-index: 1;
+    position: absolute;
+    right: 41%;
+    bottom: -316px;
+    -webkit-box-shadow: 3px 11px 21px -2px rgba(0,0,0,0.6) !important;
+    box-shadow: 3px 11px 21px -2px rgba(0,0,0,0.6) !important;
+    /* top: 205%; */
+}
+.periwinkel {
+  background:#335a8f;
+}
+
+.firstCarousel {
+
+    margin-top: 0em;
+}
+
+.slick-track {
+    padding-top: 0em;
+    padding-bottom: 0em;
+}
+
+.slider .slide {
+    width: 100%;
+    height: 100%;
+    max-height: 700px;
+}
+
+/* middle slider */
+
+.slick-slide img {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  width:100% !important;
+}
+.flyer {
+  max-width:640px;
+  -webkit-filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+  -moz-filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+  -ms-filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+  -o-filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+  filter: drop-shadow(0 30px 10px rgba(0,0,0,.5));
+  padding-top:3em;
+}
+
+.flyer.three {
+  -webkit-filter: drop-shadow(0 0px 0px rgba(0,0,0,0));
+  -moz-filter: drop-shadow(0 0px 0px rgba(0,0,0,0));
+  -ms-filter: drop-shadow(0 0px 0px rgba(0,0,0,0));
+  -o-filter: drop-shadow(0 0px 0px rgba(0,0,0,0));
+  filter: drop-shadow(0 0px 0px rgba(0,0,0,0));
+  padding-top:2em;
+}
+.slick-prev {
+    left: 50px !important;
+}
+
+.slick-prev:after {
+    content: "\f104" !important;
+    font: 40px/1 'FontAwesome' !important;
+    color: white !important;
+}
+
+.slick-next {
+    right: 50px !important;
+    text-align: right !important;
+}
+
+.slick-next:after {
+     content: "\f138" !important;
+     font: 36px/1 'FontAwesome' !important;
+     color: white !important;
+}
+
+  .slick-prev:after {
+       content: "\f137" !important;
+       font: 36px/1 'FontAwesome' !important;
+       color: white !important;
+  }
+
+.slick-prev:hover:after,
+.slick-next:hover:after {
+  -webkit-transition: all .7s ease-in-out !important;
+  -o-transition: all .7s ease-in-out !important;
+  transition: all .7s ease-in-out !important;
+    color:#00f !important;
+}
+.slick-prev:focus:after,
+.slick-next:focus:after {
+  -webkit-transition: all .7s ease-in-out !important;
+  -o-transition: all .7s ease-in-out !important;
+  transition: all .7s ease-in-out !important;
+
+}
+.slick-prev:active:after,
+.slick-next:active:after {
+  -webkit-transition: all .7s ease-in-out !important;
+  -o-transition: all .7s ease-in-out !important;
+  transition: all .7s ease-in-out !important;
+  color:white !important;
+}
+.slick-prev:visited:after,
+.slick-next:visited:after {
+  -webkit-transition: all .7s ease-in-out !important;
+  -o-transition: all .7s ease-in-out !important;
+  transition: all .7s ease-in-out !important;
+
+}
+
+.slick-slide img {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    width: 100% !important;
+}
+.slider-wr {
+    width: 100%;
+    padding: 0 8px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    margin-top: -1em;
+    padding-top: 0em;
+    margin-bottom: -1em;
+}
+.slide {
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+.slide img {
+  max-width: 100%;
+  position: relative;
+  transform: scale(0.9);
+  transition: all 1s ease-out;
+  opacity: 0.5;
+}
+.slide.slick-center img {
+  transform: scale(1.1);
+  transition: all 1s ease-out;
+  opacity: 1;
+}
+
+.diskMobile {
+  display:none;
+}
+
+@media (min-width:992px) and (max-width:1024px) {
+  .diskImg {
+    min-width:400px;
+  }
+}
+
+
+
+@media (min-width:768px) and (max-width:1024px) {
+  .m-100 {
+    margin-top: 4em;
+    padding-bottom: 20px;
+    padding-top: 4em;
+}
+.fixedWidth {
+  padding-left:2em;
+  padding-right:2em;
+}
+}
+
+
+@media (min-width:1025px) {
+  .colWidths {
+    width:420px;
+  }
+
+  .flexCenter {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  p.mt-40 {
+    max-width:320px;
+  }
+
+  .carousel2 {
+    display:none;
+  }
+  .slider-wr {
+    display:block;
+  }
+}
+
+@media (max-width:1024px) {
+  .carousel2 {
+    display:block;
+  }
+  .slider-wr {
+    display:none;
+  }
+  .flyer2 {
+     max-width: 100% !important;
+  }
+
+  .diskMobile {
+    display:block;
+  }
+
+  .diskDesktop {
+    display:none;
+  }
+
+  .mt8 {
+    margin-top: 0em;
+}
+
+}
+
+@media (max-width:767px) {
+  p.mt-40 {
+    text-align: center;
+}
+
+p.big.white {
+    text-align: center;
+}
+.white {
+  text-align: center;
+}
+
+h3.moreGray.two {
+    text-align: center;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+}
+  .slick-prev {
+      left: 20px;
+  }
+
+  .slick-next {
+      right: 20px;
+
+  }
+
+  .m-100 {
+    margin-top: 0px;
+    padding-bottom: 3em;
+    padding-top: 8em;
+}
+
+  .slick-next:after, .slick-prev:after {
+
+    font: 30px/1 'FontAwesome';
+}
+.order {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+
+}

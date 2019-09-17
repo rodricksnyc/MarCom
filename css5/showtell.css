@@ -1,0 +1,414 @@
+a {
+
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal !important;
+  text-align: left !important;
+}
+
+
+.col-center {
+  display:inline-block;
+  float:none;
+  /* margin-left: -1em;
+  margin-right:-1em; */
+}
+
+.afcs-topper {
+    max-width: 165px;
+    position: absolute;
+    z-index: 10;
+    right: 4%;
+    margin-top: -33em;
+}
+.stem2 {
+  max-width: 285px;
+  position: absolute;
+  z-index: 10;
+  left: 20%;
+  margin-top: -26em;
+}
+
+.book1 {
+  max-width: 318px;
+  position: absolute;
+  z-index: 10;
+  margin-top: -24em;
+  right: -5%;
+}
+
+
+.pamphlet1 {
+  max-width: 349px;
+  position: absolute;
+  z-index: 10;
+  left: 20%;
+  margin-top: -24em;
+}
+
+.smc1 {
+  max-width: 338px;
+  position: absolute;
+  z-index: 10;
+  left: 13%;
+  margin-top: -30em;
+}
+
+.dca1 {
+  max-width: 324px;
+  position: absolute;
+  z-index: 10;
+  left: 13%;
+  margin-top: -31em;
+}
+
+
+.stem1 {
+  max-width: 270px;
+  position: absolute;
+  z-index: 2;
+  margin-top: -33em;
+  left: 32%;
+}
+
+.dcma1 {
+  max-width: 400px;
+  position: absolute;
+  z-index: 10;
+  left: 7%;
+  margin-top: -22em;
+}
+
+.book2 {
+  max-width: 360px;
+  position: absolute;
+  z-index: 2;
+  margin-top: -33em;
+  left: -5%;
+}
+
+.doeLogo {
+  position: absolute;
+  z-index: 1;
+  margin-top: -26em;
+  right: 0%;
+  max-width: 151px;
+  left: 12%;
+}
+
+.pamphlet2 {
+  max-width: 268px;
+  position: absolute;
+  z-index: 2;
+  margin-top: -21em;
+  left: 14%;
+}
+
+.ngia3 {
+  position: absolute;
+  z-index: 8;
+  margin-top: -18em;
+  left: 13%;
+  max-width: 306px;
+}
+
+.ngia1 {
+  position: absolute;
+  z-index: 10;
+  margin-top: -23em;
+  right: 14%;
+  max-width: 325px;
+}
+
+.ngiaShadow {
+  position: absolute;
+  z-index: 0;
+  margin-top: -15em;
+  right: 12%;
+  max-width: 388px;
+}
+
+.stemShadow {
+  position: absolute;
+  z-index: 0;
+  margin-top: -19em;
+
+  right: 12%;
+  max-width: 351px;
+}
+
+.pamphletShadow {
+  position: absolute;
+  z-index: 0;
+  margin-top: -23em;
+  right: 4%;
+  max-width: 398px;
+}
+
+.smcShadow {
+  position: absolute;
+  z-index: 0;
+  margin-top: -19em;
+  right: 6%;
+  max-width: 408px;
+}
+
+.dcmaShadow {
+  position: absolute;
+  z-index: 0;
+  margin-top: -15em;
+  right: 6%;
+  max-width: 408px;
+}
+
+.dcaaShadow {
+  position: absolute;
+  z-index: 0;
+  margin-top: -22em;
+  right: 11%;
+  max-width: 353px;
+}
+
+.tinyBook {
+  max-width: 200px;
+  position: absolute;
+  z-index: 10;
+
+  margin-top: -25em;
+  right: 5%;
+}
+
+.tinyShadow {
+  position: absolute;
+  z-index: 0;
+  margin-top: -26em;
+  right: -8%;
+  max-width: 300px;
+}
+
+.tinyBook2 {
+  position: absolute;
+  z-index: 8;
+  margin-top: -24em;
+  left: 0%;
+  min-width: 465px;
+}
+
+.openBook {
+  position: absolute;
+  z-index: 8;
+  margin-top: -26em;
+  left: 0%;
+  min-width: 400px;
+}
+.discovery {
+  position: absolute;
+  z-index: 10;
+  margin-top: -26em;
+  right: -2%;
+}
+
+.dolB {
+  position: absolute;
+  z-index: 0;
+  margin-top: -19em;
+  right: 11%;
+  max-width: 325px;
+}
+
+.dolA {
+  position: absolute;
+  z-index: 0;
+  margin-top: -23.5em;
+  left: 18%;
+  max-width: 329px;
+}
+.dolShadow {
+  position: absolute;
+  z-index: 0;
+  margin-top: -20em;
+  right: 6%;
+  max-width: 374px;
+}
+
+.ngiBlack {
+  max-width: 350px;
+  position: absolute;
+  z-index: 0;
+  left: 8%;
+  margin-top: -30em;
+}
+.ngiBlackShadow {
+  position: absolute;
+  z-index: 0;
+  margin-top: -27em;
+  right: 10%;
+  max-width: 400px;
+}
+
+.oigShadow {
+  position: absolute;
+  z-index: 0;
+  margin-top: -30em;
+  right: 18%;
+  max-width: 330px;
+}
+
+.oig {
+  max-width: 350px;
+  position: absolute;
+  z-index: 10;
+  left: 8%;
+  margin-top: -32em;
+}
+
+
+.phone1{
+  max-width: 360px;
+  position: absolute;
+  z-index: 0;
+  margin-top: -24em;
+  left: 9%;
+}
+
+.naus-lady{
+  max-width: 450px;
+      position: absolute;
+      z-index: 0;
+      margin-top: -24em;
+      left: 4%;
+}
+
+.phone2{
+
+  max-width: 360px;
+  position: absolute;
+  z-index: 0;
+  left: 15%;
+  margin-top: -20em;
+}
+
+.stars3{
+      max-width: 163px;
+      position: absolute;
+      z-index: 0;
+      left: 48%;
+      margin-top: -22em;
+}
+
+.phoneShadow2 {
+  position: absolute;
+  z-index: 1;
+  margin-top: -18em;
+  right: 6%;
+  max-width: 400px;
+}
+
+.naus-words {
+      position: absolute;
+      z-index: 1;
+      margin-top: -23em;
+      right: 5%;
+      max-width: 413px;
+}
+
+.phoneShadow1 {
+  position: absolute;
+  z-index: 1;
+  margin-top: -22em;
+  right: 11%;
+  max-width: 351px;
+}
+
+.stars1 {
+position: absolute;
+    z-index: 1;
+    margin-top: -23em;
+    right: 62%;
+    max-width: 77px;
+}
+
+.pepfar {
+    position: absolute;
+    z-index: 1;
+    margin-top: -23.5em;
+    right: -1%;
+}
+
+.fixedWidth2 {
+  max-width:467px;
+}
+
+#navbar {
+  background: #ffffff;
+}
+.navbar-fixed-top {
+  z-index: 800000;
+}
+
+.fixedWidth {
+  width: 467px !important;
+}
+
+.projects {
+  margin-top: 0em !important;
+}
+
+button {
+  border-color: transparent;
+  background:transparent;
+}
+
+.active  {
+  color:white;
+  background:#0000ff !important;
+}
+
+.showPage {
+  padding: 13px 0px !important;
+}
+
+.projects {
+  margin-top:8em;
+}
+
+.mobileFooter {
+  display:none;
+}
+
+.site-main .projects-section .one-third-wrap .one-third {
+
+    height: 490px;
+    width: 467px;
+    position: relative
+}
+
+@media(max-width:1024px) and (min-width:769px) {
+  .h535 {
+    height:520px;
+  }
+}
+
+
+@media(max-width:768px) and (min-width:676px) {
+  .h535 {
+    height:400px;
+  }
+}
+
+@media (min-width:1025px) {
+  .h535 {
+    height: 535px;
+  }
+}
+
+
+@media (max-width:767px) {
+  .mobileFooter {
+    display:block;
+  }
+
+  .largeFooter {
+    display:none;
+  }
+
+}

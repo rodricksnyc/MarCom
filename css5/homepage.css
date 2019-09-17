@@ -1,0 +1,77 @@
+.shadowFiles {
+  -webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .26);
+box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .26);
+
+}
+
+button {
+    outline: none !important;
+}
+
+.wrapper {
+	width: 100%;
+	height: 900px;
+	overflow: hidden;
+	background: linear-gradient(90deg,#ff8000,#ff00ff,#2dafe6,#FF2362,#3cff3c,#3E23FF);
+	background-size: 600% 600%;
+	-webkit-animation: Gradient 100s ease-in-out infinite;
+	-moz-animation: Gradient 100s ease-in-out infinite;
+	animation: Gradient 100s ease-in-out infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+::placeholder {
+	color: #fff !important;
+}
+
+#particles-js {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+  z-index:901;
+}
+
+
+@media (max-width: 767px) {
+.gray {
+    font-weight: 300 !important;
+}
+}

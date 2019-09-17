@@ -1,0 +1,258 @@
+.icon {
+  max-height:50px;
+}
+.carousel-control {
+  opacity: 1 !important;
+}
+
+.topText {
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 15px;
+    text-align: center;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display:flex;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+
+#menu li.slide-line,
+#menu2 li.slide-line {
+	display: block;
+  padding:0;
+  margin:0;
+	background: black;
+	  position: absolute;
+	  top: 0;
+  width: 43px;
+  height: 3px;
+  left: 83px;
+  top: 20px;
+  z-index: 0;
+}
+.blacker3 {
+    padding-top: 4em;
+    background: black;
+}
+
+.small.bt {
+    font-weight: bold !important;
+    margin-top: 25px !important;
+}
+
+
+li.whiteList {
+    height: auto !important;
+}
+
+.whiteList {
+  color:white;
+  list-style-type:disc !important;
+  font-size: 19px !important;
+  text-align:left;
+  margin-left:-.2em;
+}
+
+
+ul.whiteList {
+  margin-bottom:3em;
+}
+
+a.small {
+    font-size: 1em;
+    font-weight: 100 !important;
+    text-align: left;
+    text-decoration: underline;
+    line-height: 40px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 100 !important;
+    color: white;
+    margin-bottom: 2em;
+    letter-spacing: .04em;
+}
+.strong {
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.whiteStrong {
+    color: white;
+    text-decoration: underline;
+    font-size: 1em;
+    font-weight: 900 !important;
+}
+
+a.white {
+    font-size: 14px;
+    color: white !important;
+    text-decoration: none;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+}
+
+.bluishButton.new {
+    margin-top: 40px;
+    font-size: 14px;
+    color: white !important;
+    background-color: #2f5399;
+    border: 2px solid transparent;
+    font-weight: 300;
+    padding: 12px 0px;
+    letter-spacing: 1px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    margin-right: 1em;
+    margin-left: 1em;
+    width: 170px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+}
+
+.bluishButton.new:hover {
+    background-color: transparent;
+    border: 2px solid #2f5399;
+    color: white;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.hero-slide {
+  background-position: center !important;
+}
+
+.blocks4 {
+  padding-top:60px;
+}
+
+
+@media (max-width: 767px){
+  #slideUpLiner {
+      height: 3px;
+      width: 70px;
+      margin-top: 3em !important;
+  }
+  .slicker.three {
+    font-size: 1em !important;
+    margin-top: 3em !important;
+  }
+}
+@media (max-width:1024px) {
+  .hero-slide {
+    background-position: center;
+  }
+  .overlayText {
+      font-family: "Roboto Condensed", sans-serif !important;
+      color: white;
+      font-size: 2em !important;
+      font-weight: 300;
+      margin-bottom: 5px;
+  }
+  .videoWrapperACQ {
+    margin-bottom: 3em;
+}
+
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+
+}
+
+
+@media (max-width: 767px) {
+
+  .center2.bluish2 {
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display:flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .mobileHidden {
+    margin-top: 0em !important;
+}
+
+.hero-content.acq {
+  margin-top:2em;
+}
+#slideUpLiner {
+    height: 3px;
+    width: 70px;
+    margin-top: 3em !important;
+}
+p.small:last-of-type {
+    margin-bottom: 20px;
+}
+.whiteLine3.pb100 {
+    margin-top: 0px;
+    margin-bottom: 70px;
+}
+
+.flickity-viewport {
+    height: 240px !important;
+    touch-action: pan-y;
+}
+
+h1.acq {
+    margin-bottom: 1em;
+}
+.states .form-control {
+    width: auto !important;
+    min-width: 0px !important;
+
+}
+.whiteLine3.mobile {
+  margin-top:3em;
+}
+}
+
+.slick-slider {
+    visibility: hidden;
+
+}
+.slick-slider.slick-initialized {
+    visibility: visible;
+
+}
+
+/* styles for internet explorer */
+
+
+.nav {
+    list-style-type: none !important
+}
+
+li {
+  list-style-type: none !important;
+}

@@ -1,0 +1,350 @@
+.icon {
+  max-height:50px;
+}
+.carousel-control {
+  opacity: 1 !important;
+}
+
+.hero-slide {
+  background-position: center !important;
+}
+
+#menu li.slide-line,
+#menu2 li.slide-line {
+	display: block;
+  padding:0;
+  margin:0;
+	background: black;
+	  position: absolute;
+	  top: 0;
+  width: 43px;
+  height: 3px;
+  left: 83px;
+  top: 20px;
+  z-index: 0;
+}
+
+.fc-unthemed td.fc-today {
+    background: #d7d9dc !important;
+}
+
+.hiddenBlock2 {
+  display:none;
+  padding-top:2em;
+  padding-bottom:6em;
+}
+
+.hiddenBlock1 {
+  display:none;
+  padding-top:2em;
+}
+
+.blocks300 {
+  margin-top:8em;
+}
+
+.blocks200 {
+  margin-bottom:45px;
+}
+
+.blocks400 {
+  margin-bottom:8em;
+}
+
+a.white {
+    font-size: 14px;
+    color: white !important;
+    text-decoration: none;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+}
+
+.diversity {
+    background-image: url(../images5/aftac-people.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+
+}
+
+.funThing {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    position: absolute;
+    z-index: 999;
+    left: 9%;
+    bottom: 30%;
+}
+
+.p60 {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+
+.slicker.two {
+    font-size: 3.8em !important;
+    font-weight: 100;
+    margin-top: -.8em;
+}
+
+.slicker.five {
+    font-size: 3.8em !important;
+    font-weight: 100;
+    margin-top: -.6em;
+}
+
+.slicker.four {
+  font-size:3.8em !important;
+  font-weight:100;
+  margin-top:-1.2em;
+}
+
+
+@media (max-width:1024px) and (min-width:768px) {
+  .i1, .i2, .i3 {
+      margin-top: -2em;
+  }
+}
+
+
+@media (max-width: 767px){
+  #slideUpLiner {
+      height: 3px;
+      width: 70px;
+      margin-top: 3em !important;
+  }
+  .slicker.three {
+    font-size: 1em !important;
+    margin-top: 1em !important;
+  }
+}
+@media (max-width:1024px) {
+  .hero-slide {
+    background-position: center;
+  }
+  .overlayText {
+      font-family: "Roboto Condensed", sans-serif !important;
+      color: white;
+      font-size: 2em !important;
+      font-weight: 300;
+      margin-bottom: 5px;
+  }
+  .videoWrapperACQ {
+    margin-bottom: 3em;
+}
+
+}
+
+@media (max-width: 1024px) and (min-width:992px) {
+  .slicker.two {
+    font-size:3em !important;
+    margin-top: -.8em !important;
+  }
+
+  .slicker.five {
+    font-size:3em !important;
+    margin-top: -1em !important;
+  }
+
+
+  .slicker.four {
+      font-size: 3em !important;
+      font-weight: 100;
+      margin-top: -1.2em;
+      margin-top: -.5em !important;
+  }
+
+  #motto {
+      margin-top: 1em !important;
+  }
+
+}
+@media (max-width: 991px) and (min-width:768px) {
+h1.slicker {
+    font-size:4em !important;
+}
+.slicker.two {
+  font-size:3em !important;
+
+}
+
+#slideUpLiner {
+    height: 4px;
+    width: 100px;
+    margin-top: 3em !important;
+}
+
+#motto {
+    margin-top: 3em !important;
+}
+
+.slicker.five {
+  font-size:3em !important;
+  margin-top: -1em !important;
+}
+
+
+.slicker.four {
+    font-size: 3em !important;
+    font-weight: 100;
+    margin-top: -1.2em;
+    margin-top: -.5em !important;
+}
+}
+
+@media (max-width: 767px) {
+  .funThing {
+      bottom: 24%;
+  }
+
+  h1.slicker {
+      font-size: 2.5em !important;
+      margin-top: 1.5em !important;
+  }
+
+  .slicker.two {
+      font-size: 2.5em !important;
+      margin-top: -.6em !important;
+  }
+
+  #motto {
+      margin-top: 3em !important;
+  }
+
+
+  .slicker.five {
+      font-size: 1.6em !important;
+      margin-top: -.6em !important;
+  }
+
+  .slicker.four {
+      font-size: 1.5em !important;
+      margin-top: -.6em !important;
+  }
+
+  .hero-content.acq {
+    margin-top:4em;
+  }
+
+
+
+
+  .center2.bluish2 {
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display:flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .mobileHidden {
+    margin-top: 0em !important;
+}
+
+.hero-content.acq {
+  margin-top:2em;
+}
+#slideUpLiner {
+    height: 3px;
+    width: 70px;
+    margin-top: 2em !important;
+}
+p.small:last-of-type {
+    margin-bottom: 20px;
+}
+.whiteLine3.pb100 {
+    margin-top: 0px;
+    margin-bottom: 70px;
+}
+
+.flickity-viewport {
+    height: 240px !important;
+    touch-action: pan-y;
+}
+
+h1.acq {
+    margin-bottom: 1em;
+}
+.states .form-control {
+    width: auto !important;
+    min-width: 0px !important;
+
+}
+.whiteLine3.mobile {
+  margin-top:3em;
+}
+
+#topLine4 {
+    font-weight: 500;
+    font-size: 1.4em !important;
+    margin-top: 0em;
+    margin-bottom: .2em;
+}
+#topLine3 {
+    font-weight: 500;
+    font-size: 1.4em !important;
+    margin-top: 0em;
+    margin-bottom: .2em;
+}
+
+}
+
+
+
+@media (max-width:480px) {
+  h1.slicker {
+      font-size: 1.8em !important;
+      margin-top: 1.5em !important;
+  }
+
+  .slicker.two {
+      font-size: 1.8em !important;
+      margin-top: -.6em !important;
+  }
+}
+
+.slick-slider {
+    visibility: hidden;
+
+}
+.slick-slider.slick-initialized {
+    visibility: visible;
+
+}
+/* styles for internet explorer */
+
+
+.nav {
+    list-style-type: none !important
+}
+
+
+li {
+  list-style-type: none !important;
+}
