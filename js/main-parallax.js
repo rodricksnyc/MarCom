@@ -36,10 +36,10 @@
       movement: {
          imgWrapper: {
              translation: {
-                 x: 0, y: 0, z: 0
+                 x: 3, y:3, z: 0
              }
              , rotation: {
-                 x: -2, y: 2, z: 0
+                 x: -3, y: 3, z: 0
              }
              , reverseAnimation: {
                  duration: 1200, easing: 'easeOutElastic', elasticity: 600
@@ -50,29 +50,29 @@
                  x: 10, y: 10, z: [0, 10]
              }
              , reverseAnimation: {
-                 duration: 1000, easing: 'easeOutExpo', elasticity: 600
+                 duration: 1000, easing: 'easeOutExpo', elasticity: 800
              }
          }
          , caption: {
              translation: {
-                 x: 5, y: 5, z: 0
+                 x: 12, y: 12, z: 0
              }
              , rotation: {
-                 x: -5, y: -5, z: 0
+                 x: -10, y: -10, z: 0
              }
              , reverseAnimation: {
-                 duration: 1500, easing: 'easeOutElastic', elasticity: 600
+                 duration: 1500, easing: 'easeOutElastic', elasticity: 800
              }
          }
          , caption2: {
              translation: {
-                 x: -8, y: -8, z: 0
+                 x: -15, y: -15, z: 0
              }
              , rotation: {
-                 x: -6, y: 6, z: 0
+                 x: -10, y: 10, z: 0
              }
              , reverseAnimation: {
-                 duration: 1500, easing: 'easeOutElastic', elasticity: 600
+                 duration: 1500, easing: 'easeOutElastic', elasticity: 800
              }
          }
          , caption3: {
@@ -83,7 +83,7 @@
                  x: -3, y: -3, z: 0
              }
              , reverseAnimation: {
-                 duration: 1500, easing: 'easeOutElastic', elasticity: 600
+                 duration: 1500, easing: 'easeOutElastic', elasticity: 800
              }
          }
          , caption4: {
@@ -94,7 +94,7 @@
                  x: -8, y: -8, z: 0
              }
              , reverseAnimation: {
-                 duration: 1500, easing: 'easeOutElastic', elasticity: 600
+                 duration: 1500, easing: 'easeOutElastic', elasticity: 800
              }
          }
 
@@ -106,7 +106,7 @@
                  x: -3, y: 3, z: 0
              }
              , reverseAnimation: {
-                 duration: 1500, easing: 'easeOutElastic', elasticity: 600
+                 duration: 1500, easing: 'easeOutElastic', elasticity: 800
              }
          }
             , shine: {
@@ -114,7 +114,7 @@
                     x: 50, y: 50, z: 0
                 }
                 , reverseAnimation: {
-                    duration: 1200, easing: 'easeOutElastic', elasticity: 600
+                    duration: 1200, easing: 'easeOutElastic', elasticity: 800
                 }
             }
         }
